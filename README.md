@@ -33,7 +33,7 @@ We need to tell our application what our authenticated users can do with each co
 
 ## Create a static website with the Realm Web SDK
 Create a website to retrieve material names and their GWP values from our GWP_dataset collection in MongoDB Atlas and display them in our website 
-- Create a index.html file https://github.com/samadnya/bentleymongodbdemo/blob/89a0a4e264d0046edd1655f3d759c0811d00bb98/hosting/files/index.html#L1-L26
+- Create a index.html file https://github.com/samadnya/bentleymongodbdemo/blob/793f7a297f0148e7ee07a3ac2ce380dab5e2253f/hosting/files/data.js#L1-L26
 - Create a data.js file https://github.com/samadnya/bentleymongodbdemo/blob/f04f0a83b8a4f340f3e3451dd66756185071005b/hosting/files/data.js#L1-L60
 Note: the first line of data.js needs your APP ID, which is available in your app services profile
 
