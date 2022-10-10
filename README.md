@@ -11,7 +11,7 @@
    - Used MongoDB's App Services to query the data stored in Atlas to display it in a browser
  
 ## Testing the demo
-Use https://samkbentleydemoapp-xmhfe.mongodbstitch.com/ or your own link provided by app services to test the demo
+Use https://epddataviewer-imrgu.mongodbstitch.com/ or your own link provided by app services to test the demo
 
 ## Building your own Atlas App Services static Hosting Demo
 **Goal:** Connecting to MongoDB Atlas database and query the data from the browser. 
@@ -34,7 +34,7 @@ We need to tell our application what our authenticated users can do with each co
 ## Create a static website with the Realm Web SDK
 Create a website to retrieve material names and their GWP values from our GWP_dataset collection in MongoDB Atlas and display them in our website 
 - Create a index.html file https://github.com/samadnya/bentleymongodbdemo/blob/89a0a4e264d0046edd1655f3d759c0811d00bb98/hosting/files/index.html#L1-L26
-- Create a data.js file https://github.com/samadnya/samkbentleydemo/blob/c4150a46e58bc67cb71d43addad3bc57611c3e17/hosting/files/data.js#L1-L60
+- Create a data.js file https://github.com/samadnya/bentleymongodbdemo/blob/f04f0a83b8a4f340f3e3451dd66756185071005b/hosting/files/data.js#L1-L60
 Note: the first line of data.js needs your APP ID, which is available in your app services profile
 
 ## Deploy the Website in MongoDB Atlas App Services Static Hosting
