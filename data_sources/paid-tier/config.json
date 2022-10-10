@@ -1,0 +1,10 @@
+{
+    "name": "paid-tier",
+    "type": "mongodb-atlas",
+    "config": {
+        "clusterName": "SamK",
+        "readPreference": "primary",
+        "wireProtocolEnabled": false
+    },
+    "version": 1
+}
