@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" type="image/png" href="https://www.mongodb.com/assets./images/global/favicon.ico"/>
+    <script src="https://unpkg.com/realm-web@1.2.0/dist/bundle.iife.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>EPD demo</title>
+</head>
+<body>
+<h1>Query GWP data using MongoDB</h1>
+<div>
+    <!-- Login anonymously -->
+    <input type="submit" value="View User session ID" onClick="login()">
+    <!-- Finds all Material Names and their corresponding GWP value  -->
+    <input type="submit" value="Show EPDs" onClick="find_epd()" >
+</div>
+<!-- Using this div to display the user ID -->
+<div id="user"></div> 
+
+<!-- Using this div to show the epd data -->
+<div id="GWP_dataset"> <hr class="line"></hr> </div>
+
+<!-- Inside this file are the functions used above: login() and find_epd() -->
+<script src="data.js"></script>
+</body>
+</html>
