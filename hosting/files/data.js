@@ -1,4 +1,4 @@
-const APP_ID = 'samkbentleydemoapp-xmhfe';
+const APP_ID = 'epddataviewer-imrgu';
 const ATLAS_SERVICE = 'mongodb-atlas';
 const app = new Realm.App({id: APP_ID});
 
